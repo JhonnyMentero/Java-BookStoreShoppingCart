@@ -8,7 +8,7 @@
     <title>Book Store</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
 </head>
-
+ 
 <body>
 	<ul>
 	  <li><a href="/books/list">Book Listing</a></li>
