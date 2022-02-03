@@ -17,6 +17,10 @@ public class ShoppingCart {
    cartItems.add(cartItem);
    calculateOrderTotal();
  }
+ 
+ public void deleteCartItem(int index) {
+	   cartItems.remove(index);
+	 }
 
  public void addCartItem(CartItem cartItem) {
   cartItems.add(cartItem);
