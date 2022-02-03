@@ -82,7 +82,7 @@ public class CartController extends HttpServlet {
 	 // Add this item and quantity to the ShoppingCart
    shoppingCart.addCartItem(existingBook, quantity);
   }
-  
+   
   protected void deleteFromCart(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 	  HttpSession session = request.getSession();
 	  String idStr = request.getParameter("index");
