@@ -13,7 +13,7 @@
 	<ul>
 	  <li><a href="/books/list">Book Listing</a></li>
     <li><a href="/books/admin">Admin</a></li>
-    <li><a class="active" href="/cart/">Cart</a></li>
+    <li><a class="active" href="/cart/">Cart</a></li> 
 	</ul>
 
     <div class="container">
