@@ -25,6 +25,19 @@ public class ShoppingCart {
  public void addCartItem(CartItem cartItem) {
   cartItems.add(cartItem);
  }
+ 
+ public void updateCartItem (int index, int  quantity) {
+	 try {
+		 CartItem aux = this.getCartItem(index);
+		 aux.setQuantity(quantity);	 
+	 } catch (Exception e)
+	 {
+		// TODO Auto-generated catch block
+	    e.printStackTrace();
+	 }
+	 
+	 
+ }
 
  public CartItem getCartItem(int iItemIndex) {
   CartItem cartItem = null;
